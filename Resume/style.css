@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.imgbox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.profiletext img {
+    width: 100%;
+    height: 100%;
+}
+
+.profiletext h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.profiletext span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contacts {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacts ul {
+    position: relative;
+}
+
+.contacts ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contacts ul li .icone {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contacts ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.percent1
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: black;    
+}
+.percent1 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+}
+.right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p {
+    color: #333;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+
+.Skil h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+} 
+.percent2{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: black;    
+}
+.percent2 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+}
+.contacts.Education li {
+    margin-bottom: 15px;
+}
+
+.contacts.Education li h5 {
+    color: #03a9f4;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.contacts.Education li h4:nth-child(2) {
+    color:#003147;
+    font-weight: 1000;
+}
